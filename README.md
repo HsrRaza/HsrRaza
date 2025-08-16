@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **Full Stack Development and Best Practices**
 
-- 👯 I’m looking to collaborate on **CNCF and Various other Open Source Projects**
+- 👯 I’m looking to collaborate on ** Various other Open Source Projects**
 
 - 🤝 I’m looking for help with **Modern Web Technologies**
 
