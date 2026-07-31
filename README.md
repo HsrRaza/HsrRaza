@@ -1,15 +1,11 @@
 
 <h1 align="center">Hi 👋, I'm Hassan Raza</h1>
-<h3 align="center">An aspiring Full Stack Engineer </h3>
+<h3 align="center">Backend Developer | Full Stack Enthusiast | Lifelong Learner</h3>
 
-- 🔭 I’m currently working on **Personal Branding and Projects**
-
-- 🌱 I’m currently learning **Full Stack Development and Best Practices**
-
-- 👯 I’m looking to collaborate on ** Various other Open Source Projects**
-
-- 📫 How to reach me **hr872259@gmail.com**
-
+- 🚀 Building scalable backend applications with Node.js, Express, PostgreSQL, and Django
+- 🌱 Currently exploring system design, cloud technologies, and software architecture
+- 💡 Passionate about clean code, open source, and solving real-world problems
+- 📫 Reach me at **hr872259@gmail.com**
 
 
 <h3 align="left">Connect with me:</h3>
