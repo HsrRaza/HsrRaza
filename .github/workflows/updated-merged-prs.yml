@@ -17,17 +17,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      
       - name: Fetch merged PRs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh search prs "is:merged author:HsrRaza" \
-            --limit 5 \
-            --sort updated \
-            --order desc \
-            --json title,url,repository \
-            --jq '.[] | "- [\(.title)](\(.url)) — `\(.repository.nameWithOwner)`"' \
+          gh api search/issues \
+            -f q="is:pr is:merged author:HsrRaza" \
+            -f per_page=5 \
+            --jq '.items[] | "- [\(.title)](\(.html_url)) — `\(.repository_url | split("/")[-2:] | join("/"))`"' \
             > /tmp/merged-prs.md
+
+          echo "Found merged PRs:"
+          cat /tmp/merged-prs.md
+
 
       - name: Update README
         run: |
