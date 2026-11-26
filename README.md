@@ -63,7 +63,16 @@
 ### 🔥 Recent Merged Pull Requests
 
 <!-- MERGED_PRS_START -->
-_No merged PRs found yet._
+- [fix: log actual autocomplete error in Meshery settings component](https://github.com/meshery/meshery/pull/18444) — `meshery/meshery`
+- [feat: Set up initial backend project dependencies and environment con…](https://github.com/HsrRaza/Url-Shorter/pull/5) — `HsrRaza/Url-Shorter`
+- [fix/all-controllers/service/routes](https://github.com/HsrRaza/Url-Shorter/pull/4) — `HsrRaza/Url-Shorter`
+- [fix/auth/customUrl](https://github.com/HsrRaza/Url-Shorter/pull/3) — `HsrRaza/Url-Shorter`
+- [fix/Backend](https://github.com/HsrRaza/Url-Shorter/pull/2) — `HsrRaza/Url-Shorter`
+- [fix/wrapped frontend](https://github.com/HsrRaza/Url-Shorter/pull/1) — `HsrRaza/Url-Shorter`
+- [fix/AxiosInstance](https://github.com/HsrRaza/Custom-Url-Shorter/pull/1) — `HsrRaza/Custom-Url-Shorter`
+- [fix/toastify](https://github.com/HsrRaza/Authentication-System/pull/5) — `HsrRaza/Authentication-System`
+- [feature/frontend](https://github.com/HsrRaza/Authentication-System/pull/4) — `HsrRaza/Authentication-System`
+- [routes tested](https://github.com/HsrRaza/Authentication-System/pull/3) — `HsrRaza/Authentication-System`
 <!-- MERGED_PRS_END -->
 
 ---
