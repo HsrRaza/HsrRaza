@@ -63,7 +63,7 @@
 ### 🔥 Recent Merged Pull Requests
 
 <!-- MERGED_PRS_START -->
-_Recent merged pull requests will appear here automatically._
+_No merged PRs found yet._
 <!-- MERGED_PRS_END -->
 
 ---
