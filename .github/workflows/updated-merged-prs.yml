@@ -22,13 +22,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh api search/issues \
-            -f q="is:pr is:merged author:HsrRaza" \
-            -f per_page=5 \
+          gh api \
+            -H "Accept: application/vnd.github+json" \
+            "/search/issues?q=is%3Apr%20is%3Amerged%20author%3AHsrRaza&per_page=10" \
             --jq '.items[] | "- [\(.title)](\(.html_url)) — `\(.repository_url | split("/")[-2:] | join("/"))`"' \
             > /tmp/merged-prs.md
 
-          echo "Found merged PRs:"
+          echo "Merged PR results:"
           cat /tmp/merged-prs.md
 
 
